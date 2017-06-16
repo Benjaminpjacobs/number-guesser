@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NumberGuesser</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><span class='number'>Number</span> Guesser</h1>
+    </header>
+    <section id="guess-form">
+        <input id='guess' type="text" placeholder="Enter your guess">
+        <div>
+            <button id='buttonGuess' class='button btn-disabled'>Guess</button>
+            <button id="buttonClear" class='button btn-disabled'>Clear</button>
+        </div>
+    </section>
+    <section class="display">
+        <h3>Your last guess was</h3>
+        <h1 id='displayGuess'>--</h1>
+        <h3 id='guessMessage'></h3>
+
+    </section>
+    <section>
+        <button id='reset' class='button btn-disabled'>Reset</button>
+    </section>
+    <section class='range'>
+        <label for="min">Min:</label>
+        <input id='min' type='text'>
+        <label for="max">Max:</label>
+        <input id='max' type='text'>
+    </section>
+    <button id='setRange' class='button btn-disabled'>Set New Range</button>
+    <script src="script.js"></script>
+</body>
+
+</html>

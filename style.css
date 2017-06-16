@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Open Sans", "Fira Sans", "Lucida Sans", "Lucida Sans Unicode", "Trebuchet MS", "Liberation Sans", "Nimbus Sans L", sans-serif;
+    text-align: center;
+    color: #e6e7e8;
+}
+
+header {
+    font-family: "open sans", sans-serif;
+    background-color: #404041;
+    height: 100px;
+    padding: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 42px;
+    letter-spacing: .1em;
+    font-style: normal;
+    font-variant: normal;
+    color: #e6e7e8;
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+h3 {
+    color: #404041;
+    font-weight: 300px;
+    font-size: 28px;
+}
+
+.number {
+    color: #ED458B;
+    font-weight: 700;
+}
+
+input[type=text] {
+    margin: 20px;
+    border: 2px solid #d0d2d3;
+    border-radius: 2px;
+    padding-left: 5px;
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.range input[type=text] {
+    margin: 20px;
+    border: 2px solid #d0d2d3;
+    border-radius: 2px;
+    padding-left: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.button {
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 50px;
+    margin: 0px 10px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.btn-disabled {
+    background-color: #d0d2d3;
+}
+
+.btn-active {
+    background-color: #929497;
+}
+
+button:focus {
+    outline-style: none;
+}
+
+.button-click {
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+
+.btn-active:hover {
+    background-color: #EB008B;
+}
+
+.button#reset {
+    width: 400px;
+}
+
+.display {
+    margin: 20px 20px;
+    min-height: 150px;
+    ;
+}
+
+.display h1 {
+    font-size: 52px;
+    color: #EB008B
+}
+
+;
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #d0d2d3;
+    font-size: 18px;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #d0d2d3;
+    font-size: 18px;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #d0d2d3;
+    font-size: 18px;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #d0d2d3;
+    font-size: 18px;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #d0d2d3;
+    font-size: 18px;
+}
