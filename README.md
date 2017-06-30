@@ -1,4 +1,4 @@
-# Number Guesser!
+# Number Guesser
 
 ## Description:
 
