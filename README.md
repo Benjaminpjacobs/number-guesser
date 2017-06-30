@@ -1,5 +1,7 @@
 # Number Guesser
 
+![Alt text](https://raw.github.com/Benjaminpjacobs/number-guesser/master/screen-shots/number-guesser.png?raw=true "Optional Title")
+
 ## Description:
 
 This is the Number Guesser game. Can you guess the number? Give it a try!
