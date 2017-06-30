@@ -1,6 +1,6 @@
 # Number Guesser
 
-![Alt text](https://raw.github.com/Benjaminpjacobs/number-guesser/master/screen-shots/number-guesser.png?raw=true "Optional Title")
+![Alt text](https://raw.github.com/Benjaminpjacobs/number-guesser/master/screen-shots/number-guess.png?raw=true "Optional Title")
 
 ## Description:
 
